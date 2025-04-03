@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bordas Decoradas</title>
+    <style>
+        body{
+            background-color: darkkhaki;
+        }
+        h1{
+            border: 20px solid black;
+            padding: 20px;
+            text-align: center;
+            /*
+            border-image-source: url('borda.png');
+            border-image-slice: 37;
+            border-image-repeat: repeat;
+            */
+            /*EM SHORTHAND*/
+            border-image: url('borda.png') 37 repeat;
+        }
+    </style>
+</head>
+<body>
+    <h1>TEXTO LIVRE</h1>
+</body>
+</html>

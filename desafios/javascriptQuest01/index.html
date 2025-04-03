@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <style>
+        input#txta{
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando Condições</h1>
+    Minha altura é de <input type="number" name="txta" id="txta"> cm <input type="button" value="Verificar" onclick="analisar()">
+    <div id="alt">
+
+    </div>
+    <script>
+        function analisar(){
+            var wid = document.querySelector('input#txta')
+            var res = document.querySelector('div#alt')
+            var alt = Number(wid.value)
+            res.innerHTML = `<p>Sua altura é de <strong>${alt} cm</strong></p>`
+            if(alt >= 180){
+                res.innerHTML += `Você é alto`
+            }
+            if(alt >= 171){
+                res.innerHTML += `Você é médio`
+            } 
+            if(alt<=170){
+                res.innerHTML += `Você é pequeno`
+            }
+        }
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soma</title>
+    <style>
+        input#num1{
+            width: 45px;
+        }
+        input#num2{
+            width: 45px;
+        }
+        body{
+            background-color: black;
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1><blockquote>SOMANDO ...</blockquote></h1>
+    <input type="number" name="num1" id="num1"> + <input type="number" name="num2" id="num2"> <input type="button" value="=" onclick="somar()">
+    <div id="sum">
+
+    </div>
+    <script>
+        function somar(){
+            var t1 = document.querySelector('input#num1')
+            var t2 = document.querySelector('input#num2')
+            var n1 = Number(t1.value)
+            var n2 = Number(t2.value)
+            var sum = document.querySelector('div#sum')
+            var st = n1 + n2 
+            sum.style.color = 'red'
+            sum.innerHTML = `O resultado da Soma é ${st}`
+        }
+    </script>
+
+</body>
+</html>

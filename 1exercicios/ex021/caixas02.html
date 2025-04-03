@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: rgb(173, 173, 173);
+            margin: 0px;
+        }
+        header{
+            background-color: whitesmoke;
+            padding:10px;
+            margin: 10px;
+            border: 5px groove rgba(202, 202, 202, 0.877);
+            border-radius: 5px 20px;
+        }
+
+        nav{
+            background-color:rgb(75, 74, 74);
+            padding: 5px;
+            box-shadow: 2px 4px 7px rgba(20, 20, 20, 0.493);
+        }
+        nav > a{
+            text-decoration: none;
+            color: whitesmoke;
+            font-weight: bolder;
+            padding-right: 60px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+            color:lightslategray;
+        }
+        nav > a:active{
+            color: white;
+        }
+
+        main{
+            background-color: whitesmoke;
+            padding: 10px;
+            margin: 10px;
+            border: 5px groove rgba(202, 202, 202, 0.877);
+            border-radius: 5px 20px;
+        }
+
+        section#assuntos{
+            font-style: italic;
+            text-decoration: underline;
+            padding-left:10px;
+        }
+
+        article{
+            background-color: rgb(163, 163, 163);
+            border-radius: 5px;
+            padding: 2px;
+            margin: 10px;
+
+        }
+        article > aside{
+            background-color: gray;
+            border-radius: 5px;
+        }
+        footer{
+            background-color: rgb(75, 74, 74);
+            color: whitesmoke;
+            padding: 8px;
+            margin: 0px;
+            text-align: center;
+            
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            background-color: whitesmoke;
+            border-radius: 360px;
+            margin: 7px auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link 1</a>
+            <a href="##">Link 2</a>
+            <a href="###">Link 3</a>
+            <a href="####">Link 4</a>
+            <a href="#####">Link 5</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <h2>MUNDO A FORA</h2>
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Dólar em Crescimento</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, reiciendis! Fuga, eligendi explicabo! Eius dicta rerum ipsum at sapiente doloremque tempore adipisci ducimus, asperiores numquam voluptatibus doloribus rem cumque assumenda. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium aspernatur fuga laudantium culpa commodi, soluta amet velit, natus et saepe odit eligendi ab dicta adipisci perspiciatis accusamus. Et, dolorum quia?</p>
+                <aside>
+                    <blockquote>Artigo escrito por Antônio Gustavo Soares dos Santos</blockquote>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido pelo @AntonioGustavo</p>
+    </footer>
+
+    <div id="bola"></div>
+</body>
+</html>

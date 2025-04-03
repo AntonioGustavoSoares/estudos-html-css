@@ -1,0 +1,25 @@
+@charset "UTF-8";
+        body{
+            background-color: rosybrown;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: justify;
+            font-size: 13px;
+        }
+        h1{
+            color: maroon;
+            text-align: center;
+            background-color: chocolate;
+            text-decoration:underline overline;
+            text-decoration-color: black;
+            
+        }
+        h2{
+            color: beige;
+        }
+        p{
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color:white;
+            letter-spacing: 0cqmax;
+            ;
+        }
+    

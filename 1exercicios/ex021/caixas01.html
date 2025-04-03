@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1{ /*BLOCK-LEVEL*/
+            /*Estrutura Normal*/
+            background-color: lightgray;
+            height: 42px;
+            width: 390px;
+
+            border-width: 5px;
+            border-style: solid;
+            border-color: lightslategray;
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+
+           /* margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            /*para centralizar com o margin use:*/
+            margin:auto;
+
+            outline-width: 3px;
+            outline-style: dotted;
+            outline-color: black;
+            
+        }
+
+        a{ /*INLINE-LEVEL*/
+            /*Em Shorthand*/
+            border: 3px solid blue;
+            outline: 3px dashed red;
+            padding: 2px 3px;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixas block-level</h1>
+    <p>Páragrafos também são exemplos de Box-level, mas os <a href="#">links são exemplos de caixas <strong>Inline-level</strong></a> testando pra ver se funciona essa bosta.</p>
+</body>
+</html>

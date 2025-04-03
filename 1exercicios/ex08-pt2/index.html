@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/playstation-250.png" type="image/x-icon">
+    <style>
+        mark{
+            background-color: rgba(255, 117, 4, 0.473);
+        }
+    </style>
+    <title>Formatação de Textos 2</title>
+</head>
+<body>
+    <del>
+        <p>Ele era bem <small>pequeno</small></p><!--Nessa linha de código estamos usando o small para deixar a palavra "pequena" realmente pequena-->
+    </del><!-- estamos usando a tag <del> para desconsiderar essa frase-->
+    <p><ins>Mano como isso foi acontecer</ins></p><!--Aqui estamos utilizando o texto inserido ou sublinhado-->
+    <p>Vamos tirar uma foto <em>aqui nesse lugar</em></p><!---Já aqui estamos utilizando o itálico-->
+
+    <p>X<sup>2</sup>, H<sub>2</sub>O</p><!--aqui estamos usando as sobrescrições e as subscrições -->
+    <blockquote><q>Ele atingiu os seus objetivos</q></blockquote> <!---Estamos usando aqui as citações-->
+    <bdo dir="rtl">Amanhã é terça-feira</bdo>
+
+    <p>Estamos estudando nesse momento <abbr title="Hyper ext Markup Language">HTML5</abbr> e daqui a alguns dias estudaresmos <abbr title="Cascade Styles Sheets">CSS3</abbr></p>
+    <p>&nbsp;&trade;&copy;&reg;&euro;&pound;&yen;&delta;&Delta;&empty;&cent;&sum;&larr;&rarr;&uarr;&darr;   
+    </p>
+
+    <hr><p><mark>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis corporis ipsum magni nesciunt, error dignissimos, deleniti asperiores necessitatibus et accusantium reprehenderit architecto reiciendis commodi consequuntur natus quisquam ratione optio. Recusandae.</mark></p><!--Aqui temos a tag <mark> que serve como marca texto e para mudar a cor basta colocar o parâmetro style logo após só colocar background-color, e assim, definir a cor.-->
+    <p><mark>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum rem hic itaque obcaecati autem aut odit officia fuga ad culpa voluptate dolor cupiditate maxime labore veniam qui, fugit ratione laudantium?</mark>
+    </p><hr>
+
+    <address><a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf">Github</a></address><!--Aqui temos o address que serve para agrupar as formas de contato-->
+
+    <p><del>Pode comer barata</del></p>
+    <p><ins>Pode comer sardinha</ins></p>
+    <p><small>o pequeno principe</small></p>
+    <p><abbr title="Antônio Gustavo">ANT</abbr></p>
+    <p><bdo dir="rtl">ANT</bdo></p>
+    <p><q>Para acontecer basta apenas se mecher</q><blockquote><abbr title="Antônio Gustavo">Ant</abbr></blockquote></p>
+    <p>H<sup>1</sup>N<sup>1</sup> </p>
+    <p>H<sub>2</sub>Ovo</p>
+    <img src="imagens/playstation-250.png" alt="Playstation"><br>
+
+    <p><q>O rato roeu a roupa do rei de Roma.<blockquote><Q>Travalinguas</Q></blockquote></q></p>
+    <p><abbr title="Hyper Text Markup Language">HTML</abbr></p>
+    
+    <p>if ou <code>if</code></p><!---Fonte mono espaçada, mas tambem server para mostrar codigos de linguagens de programação--> <hr>
+    <pre>
+        <code>
+    num = int(input('Digite um Número'))
+    if num % 2 == 0
+    print(f'O número {num} é PAR')
+    else:
+    print(f'O número {num} é ÍMPAR')
+    print('Fim do Programa')
+        </code>
+    </pre> <!----use shift tab para deslocar a indentação para trás, e tab pra a indentação para ir para frente-->
+    <!---A tag <pre> serve para poder mostras as coisa pré-formatadas ou no caso do código acima mostra as formatações igual como esá no código Python acima!!-->
+</body>
+</html>

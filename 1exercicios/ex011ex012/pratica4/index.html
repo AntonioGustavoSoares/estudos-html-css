@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratica 4</title>
+</head>
+<body>
+    <h1>Praticando as imagens dinâmicas</h1>
+    
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/ceu-300.jpg" type="image/jpg">
+        <source media="(max-width: 1000px)" srcset="imagens/planalto-700.jpg" type="image/jpg">
+        <img src="imagens/castanhas-1000.jpg" alt="castanhas">
+    </picture>
+
+    <h1>Praticando áudios dinâmicas</h1>
+
+    <audio src="midia/face.mp3" preload="metadata" controls >
+        <source src="midia/face.mp3" type="audio/mpeg">
+        <source src="midia/face.ogg" type="audio/ogg">
+        <source src="midia/face.wav" type="audio/wav">
+        <p>Caso o player não tenha aparecido clique no botão <a href="midia/face.mp3" download="face.mp3" type="audio/mpeg">Download</a> para baixar a música</p>
+    </audio>
+    
+    <audio src="midia/sugar.mp3" preload="metadata" controls>
+        <source src="" type="audio/mpeg">
+    </audio>
+     
+    <h1>Praticando Vídeos Dinâmicos</h1>
+    <video src="video/WIN_20241022_19_54_24_Pro.mp4" preload="metadata" controls width="500px" poster="imagens/planalto-700.jpg">
+        <source src="video/WIN_20241022_19_54_24_Pro.mp4" type="video/mp4">
+        <source src="video/WIN_20241022_19_54_24_Pro.m4v" type="video/mp4">
+        <source src="video/WIN_20241022_19_54_24_Pro.webm" type="video/mp4">
+        <p>Caso o vídeo não apareça clique em <a href="video/WIN_20241022_19_54_24_Pro.mp4">DOWNLOAD</a> para baixar e assistir o vídeo</p>
+    </video>
+    <br>
+    <a href="video/WIN_20241022_19_54_24_Pro.mp4" download="gustavo-video" type="video/mp4">DOWNLOAD do Vídeo</a>
+
+    <h1>Incorporando Vídeos</h1>
+    <iframe width="400" height="300" src="https://www.youtube.com/embed/TCeyIwFGkYo" title="Vídeos em hospedagem própria - @Curso em Vídeo HTML5 e CSS3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   
+</body>
+</html>

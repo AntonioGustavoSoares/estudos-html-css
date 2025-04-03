@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/* em HTML é id = em CSS o id é hashtag(#) => (só pode um elemento) */
+/* em HTML é class = em CSS o class é ponto(.) => (pode vários elementos) */
+
+body{
+    background-color: darkgrey;
+    color: white;
+    font: normal lighter 1em Arial, Verdana, sans-serif;
+}
+ h1{
+    color: black;
+ }
+
+ h1#principal{
+    background-color: white;
+    text-align: center;
+    padding: auto;
+    font: normal bold 2em 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+ .secundario{
+    text-indent: 20px;
+ }
+
+ h2{
+    color: rgba(83, 83, 83, 0.938);
+ }
+
+ .sub{
+    text-decoration: underline;
+    font-weight: bold;
+ }

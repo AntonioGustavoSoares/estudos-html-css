@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM treino</title>
+    <style>
+        body{
+           background-color: dimgrey; 
+           color:aliceblue;
+        }
+        div#ant{
+            width: 200px;
+            height: 200px;
+            background: cyan;
+            color: black;
+            font: normal 20pt serif;
+            text-align: center;
+            line-height: 150pt;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste De DIV</h1>
+    <div id="ant">
+        Preparando
+    </div>
+    <script>
+        var i = document.getElementById('ant')
+        i.addEventListener('click', clicar)
+        i.addEventListener('mouseenter', entrar )
+        i.addEventListener('mouseout', sair)
+        function clicar() {
+            i.innerText= 'CLIQUE'
+            i.style.background = 'green'
+            i.style.color = 'white'
+        }
+        function entrar() {
+            i.innerText = 'ENTROU'
+            i.style.background = 'red'
+            i.style.color = 'white'
+        }
+        function sair() {
+            i.innerText = 'SAIU'
+            i.style.background = 'orange'
+            i,style.color ='white'
+        }
+    </script>
+</body>
+</html>
