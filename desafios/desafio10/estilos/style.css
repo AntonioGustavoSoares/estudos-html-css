@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fredericka+the+Great&family=Monofett&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&family=Share+Tech+Mono&display=swap');
+
 @font-face {
     font-family: Android;
     src: url('/fontes/idroid.otf') format('opentype');
@@ -19,6 +21,7 @@
     --fonte-padrao:Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque:'Bebas Neue', cursive;
     --fonte-android:'Android', sans-serif;
+    --fonte-nova:"Share Tech", sans-serif;
 
 }
 
@@ -96,14 +99,14 @@ main{
 
 main  h1{
     color: var(--cor5);
-    font-family: var(--fonte-android);
-    font-weight: normal;
+    font-family: var(--fonte-nova);
+    font-weight: bold;
     font-size: 1.8em;
 }
 
 main h2{
     color: var(--cor4);
-    font-family: var(--fonte-android);
+    font-family: var(--fonte-nova);
     background-image: linear-gradient(to right, var(--cor1), transparent);
     font-size: 1.3em;
     font-weight: normal;
