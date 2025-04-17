@@ -6,11 +6,21 @@
     <title>Alinhamento Vertical</title>
     <style>
         #fora{
+            position: relative;
             background-color: lightseagreen;
+            height: 500px;
         }
 
         #dentro{
+            position: absolute;
+            left: 50%;
+            top:50%;
+            transform: translate(-50%, -50%);
+
             background-color: red;
+            height: 250px;
+            width: 250px;
+            
         }
     </style>
 </head>
