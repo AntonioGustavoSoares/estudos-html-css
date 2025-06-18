@@ -4,8 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 400px;
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 1.25;
+            font-weight: bold;
+            padding: 12px;
+        }
+        th, td{
+            border: 2px solid black;
+            padding: 5px;
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>Execício de Tabelas</h1>
+
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+
+        <tr>
+            <td>Maitê</td>
+            <td>F</td>
+            <td>26</td>
+            <td>Designer</td>
+        </tr>
+
+        <tr>
+            <td>Gael</td>
+            <td>M</td>
+            <td>31</td>
+            <td>Marceneiro</td>
+        </tr>
+
+        <tr>
+            <td>La´s</td>
+            <td>F</td>
+            <td>21</td>
+            <td>Recepcionista</td>
+        </tr>
+
+        <tr>
+            <td>Mario</td>
+            <td>M</td>
+            <td>19</td>
+            <td>Atendente</td>
+        </tr>
+
+        <tr>
+            <td>Laura</td>
+            <td>F</td>
+            <td>34</td>
+            <td>Supervisora</td>
+        </tr>
+    </table>
 </body>
 </html>
