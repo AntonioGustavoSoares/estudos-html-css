@@ -4,15 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estudos de Iframe</title>
+    <style>
+        iframe{
+            Height:400px;
+            width:400px;
+            border: 1px solid black;
+            /*Lembrando que as configurações de folhas de estilo CSS são soberanas e se sobrepõe as configurações nas tagas HTML*/
+        }
+    </style>
 </head>
 <body>
     <h1>Testando Iframe</h1>
-    <p>Acessando o site do 
+    <!--Tamanho padrão dos Iframes é de 300x150 pixels-->
+    <p> 
 
-        <iframe src="https://www.cursoemvideo.com" frameborder="0">
+        <iframe src="https://www.cursoemvideo.com" frameborder="0" height="470px" width="360px">
 
         </iframe>
 
     </p>
+
+    <br>
+
+    <iframe src="https://antoniogustavosoares.github.io/estudos-html-css/desafios/desafio10/android.html" frameborder="0" height="500px" width="400px">
+
+        </iframe>
 </body>
 </html>
